@@ -28,6 +28,9 @@ import chuanval from '@/components/chuanval'
 import ajax from '@/components/ajax'
 import promise from '@/components/Promise'
 import es6 from '@/components/es6'
+import comfun from '@/components/comfun'
+
+
 
 // import list from '@/components/list'
 //http://localhost:4040/#/luyou3/query?456=querys
@@ -394,6 +397,10 @@ var router = new Router({
       meta: {
         keepAlive: true
       }
+    }, {
+      name: "comfun",
+      path: "/comfun",
+      component: comfun
     }, {
       name: "404",
       path: "*",

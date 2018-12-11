@@ -9,7 +9,7 @@ import 'vue-ydui/dist/ydui.rem.css'
 import Vuex from 'vuex'
 import { Confirm, Alert, Toast, Notify, Loading } from 'vue-ydui/dist/lib.rem/dialog';
 import creatstore from './store'
-import touch from 'vue-touch'
+// import touch from 'vue-touch'
 import $ from 'jquery'
 
 Vue.use(Vuex)
@@ -28,7 +28,7 @@ Vue.use(YDUI);
 Vue.prototype.$http = axios
 Vue.prototype.$http.defaults.baseURL = "http://localhost:3000/"
 Vue.prototype.$http.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
-Vue.use(touch);
+// Vue.use(touch);
 
 
 /* eslint-disable no-new */

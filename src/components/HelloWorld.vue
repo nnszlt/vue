@@ -73,6 +73,9 @@
 				<router-link tag="li" to="/es6">
 				<h1 style="font-size: .5rem;">es6</h1>
 			</router-link>
+				<router-link tag="li" to="/comfun">
+				<h1 style="font-size: .5rem;">公共方法</h1>
+			</router-link>
 		</ul>
 	</div>
 </template>
