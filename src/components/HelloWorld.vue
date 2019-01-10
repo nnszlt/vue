@@ -52,6 +52,9 @@
 			<router-link tag="li" to="watch">
 				<h1 style="font-size: .5rem;">watch</h1>
 			</router-link>
+					<router-link tag="li" to="compute">
+				<h1 style="font-size: .5rem;">compute</h1>
+			</router-link>
 			<router-link tag="li" to="/cn/img">
 				<h1 style="font-size: .5rem;">static照片引用</h1>
 			</router-link>
@@ -76,6 +79,16 @@
 				<router-link tag="li" to="/comfun">
 				<h1 style="font-size: .5rem;">公共方法</h1>
 			</router-link>
+				<router-link tag="li" to="/filter">
+				<h1 style="font-size: .5rem;">过滤器</h1>
+			</router-link>
+				<router-link tag="li" to="/preview">
+				<h1 style="font-size: .5rem;">preview</h1>
+			</router-link>
+					<router-link tag="li" to="/swiper">
+				<h1 style="font-size: .5rem;">vue swiper </h1>
+			</router-link>
+			
 		</ul>
 	</div>
 </template>

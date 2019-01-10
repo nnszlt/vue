@@ -20,6 +20,7 @@ import donghua from '@/components/donghua'
 import zujian from '@/components/zujian'
 import chacao from '@/components/chacao'
 import watchs from '@/components/watch'
+import compute from '@/components/compute/computer'
 import img from '@/components/img'
 import scrolllist from '@/components/scrolllist'
 import click from '@/components/click'
@@ -29,8 +30,9 @@ import ajax from '@/components/ajax'
 import promise from '@/components/Promise'
 import es6 from '@/components/es6'
 import comfun from '@/components/comfun'
-
-
+import filter from '@/components/filter'
+import preview from '@/components/vue-preview/preview'
+import swiper from '@/components/swiper'
 
 // import list from '@/components/list'
 //http://localhost:4040/#/luyou3/query?456=querys
@@ -347,6 +349,10 @@ var router = new Router({
       path: "/watch",
       component: watchs
     }, {
+      name: "compute",
+      path: "/compute",
+      component: compute
+    }, {
       name: "img",
       path: bsae + "img",
       component: img
@@ -402,6 +408,25 @@ var router = new Router({
       path: "/comfun",
       component: comfun
     }, {
+
+      name: "filter",
+      path: "/filter",
+      component: filter
+    }, {
+
+      name: "preview",
+      path: "/preview",
+      component: preview
+    },
+
+    {
+
+      name: "swiper",
+      path: "/swiper",
+      component: swiper
+    }
+
+    , {
       name: "404",
       path: "*",
       component: cuowu

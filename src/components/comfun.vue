@@ -11,12 +11,13 @@ export default {
     return {};
   },
   mounted() {
-    var data = new Date(1544497120000);
-    console.log(formatDate(data, "yyyy-MM-dd hh:mm:ss"));
-    console.log(returnUrl.isNull("45"))
-    console.log(returnUrl.GetQueryString())
-    console.log(returnUrl.Browser())
-    console.log(returnUrl.isWechat())
+    // var data = new Date(1544497120000);
+    // console.log(formatDate(data, "yyyy-MM-dd hh:mm:ss"));
+    // console.log(returnUrl.isNull("45"))
+    // console.log(returnUrl.GetQueryString())
+    // console.log(returnUrl.Browser())
+    // console.log(returnUrl.isWechat())
+    console.log(returnUrl. number_format(184545454545.25125, 2, ".", ","))
     
   }
 };

@@ -11,8 +11,27 @@ import { Confirm, Alert, Toast, Notify, Loading } from 'vue-ydui/dist/lib.rem/di
 import creatstore from './store'
 // import touch from 'vue-touch'
 import $ from 'jquery'
+import VuePreview from 'vue-preview'
+//vue swiper
+import VueAwesomeSwiper from 'vue-awesome-swiper' 
+
+Vue.use(VueAwesomeSwiper, /* { default global options } */)
+//vue swiper END
 
 Vue.use(Vuex)
+
+Vue.use(VuePreview)	
+Vue.use(VuePreview, {
+	mainClass: 'pswp--minimal--dark',
+	barsSize: {top: 0, bottom: 0},
+	captionEl: false,
+	fullscreenEl: false,
+	shareEl: false,
+	bgOpacity: 0.85,
+	tapToClose: true,
+	tapToToggleControls: false
+  })
+
 var store = creatstore()
 Vue.prototype.$dialog = {
 	confirm: Confirm,
